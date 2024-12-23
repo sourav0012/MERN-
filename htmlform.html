@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Register Here:</h3>
+        <form name="test">
+          <table border="1" width="40%">
+            <tr>
+                <td><label><b>Name:</b></label></td>
+                <td><input type="text" name="nm" placeholder="name plz" required/></td>
+            </tr>
+            <tr>
+                <td><label><b>Enter Email :</b></label></td>
+                <td><input type="email" name="em" placeholder="xxxx@xxx.xx" required/></td>
+            </tr>
+            <tr>
+                <td><label><b>Enter Password :</b></label></td>
+                <td><input type="password" name="pwd" placeholder="pwd plz" required/></td>
+            </tr>
+            <tr>
+                <td><label><b>Enter DOB :</b></label></td>
+                <td><input type="date" name="db" required/></td>
+            </tr>
+            <tr>
+                <td><label><b>Select Gender :</b></label></td>
+                <td>
+                    <input type="radio"  name="gen" value="male" required/>Male 
+                    <input type="radio" name="gen" value="female" required/>Female 
+                </td>
+            </tr>
+            <tr>
+                <td><label><b>Approval Requried:</b><br>Click on the button or text to check/uncheck.</label></td>
+                <td>
+                    <input type="checkbox" name="lang" value="english" required/>Do You Approve?
+                    
+                </td>
+            </tr>
+            <tr>
+                <td><label><b>Pick Your Fvourite:</b><br>Click on the button or text to Select.</label></td>
+                <td>
+                    <input type="radio"  name="gen" value="male" required/>Choice A
+                    <br><input type="radio" name="gen" value="female" required/>Choice B
+                    <br><input type="radio" name="gen" value="female" required/>Choice C 
+                </td>
+            </tr>
+            
+            <tr>
+                <td><label><b>PopUp Menu:</b></label></td>
+                <td>
+                    <select name="loc" required>
+                       <option value="">select city</option>
+                       <option value="kolkata">kolkata</option>
+                       <option value="howrah">howrah</option>
+                       <option value="asansol">asansol</option>
+                       <option value="goa">goa</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label><b>List</b><br>StepUp Options:
+                    <li>Number of rows to Display</li>
+                    <li>Multiple select option</li>
+                </label></td>
+                <td>
+                    <select name="job" multiple required>
+                       <option value="developer">Callifornia--CA</option>
+                       <option value="faculty">Colorado--CO</option>
+                       <option value="doctor">Connecticut--CN</option>
+                       <option value="bank">Dalifornia--DA</option>
+                       <option value="psu">Dolorado--Do</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label><b>Field Ingolored By KM</b></label>
+                </td>
+                <td>
+                    <input type="number" name="nm" placeholder="write a number" required>
+                </td>
+
+            </tr>
+            
+            <tr>
+                <td><label><b>Text Area</b></label></td>
+                <td>
+                    <textarea name="remk" placeholder="type something.."   required>
+                    </textarea>
+                </td>
+            </tr>
+             <tr>
+                <td><label>Upload Photo :</label></td>
+                <td>
+                    <input type="file" name="file" required/>
+                </td>
+             </tr>
+             <tr>
+                <td colspan="2">
+                    <input type="submit" value="REGISTER"/>
+                    <input type="reset"  value="RESET"/>
+                </td>
+             </tr>
+          </table>
+        </form>
+</body>
+</html>
